@@ -1,0 +1,90 @@
+/*
+ * Programming Quiz: Facebook Friends (7-5)
+ */
+ 
+
+// 
+
+
+
+your code goes here
+
+
+
+
+var facebookProfile={
+   
+
+  name:"Ayesha",
+    
+
+ friends:10,
+   
+
+  messages:["hi","hello","life"],
+  
+
+
+   
+postMessage: function (message){
+    
+
+	this. messages.push(message);
+    
+        return this. messages;
+
+  },
+
+ 
+deleteMessage: function (index){
+ 
+      this.messages.splice(index,1);
+   
+      return this.messages;
+ 
+
+ },
+ 
+
+
+ 
+ addFriend: function (){
+ 
+
+     this.friends++;
+    
+
+  return this.friends;
+ 
+
+ },
+  
+
+
+  removeFriend: function (){
+ 
+
+     this.friends--;
+     
+
+ return this.friends;
+ 
+
+ }
+ 
+ 
+
+ };
+ 
+
+ 
+  console.log(facebookProfile.messages);
+  
+
+   console.log(facebookProfile.friends);
+ 
+ 
+ //console.log(facebookProfile.addFriend);
+    
+ //console.log(facebookProfile.removeFriend);
+
