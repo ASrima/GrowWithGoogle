@@ -13,7 +13,7 @@ var breakfast ={
    name:"The Lumberjack",
  
 
-   price:"$9.95",
+   price:9.95,
    
 
 
